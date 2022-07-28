@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "stop": "forever stopall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSobol/server.git"
+  },
+  "author": "Varna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NSobol/server/issues"
+  },
+  "homepage": "https://github.com/NSobol/server#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0"
+  }
+}
