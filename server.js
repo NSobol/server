@@ -100,7 +100,6 @@ app.use(async (ctx) => {
       if (ctx.request.query.id) {
         ctx.response.body = findTicket(+id);
       }
-      return;
     case "createTicket":
       const nextId = ticketsFull.length;
       ticketsFull.push(
